@@ -121,50 +121,6 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "dist/apps/backend/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".nx/cache/vite.hash",
-        "hash": "12261672363843473437"
-      },
-      {
-        "file": ".git/index.lock",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "dist/apps/backend/emails/templates/email-template.hbs",
-        "hash": "16124318568139063919"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "596896521444264820"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "16602595035920530759"
-      },
-      {
-        "file": "supabase/seed.sql",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "package.json",
-        "hash": "15810003257695442711"
-      },
-      {
-        "file": ".nx/cache/file-map.json",
-        "hash": "11289548619579031890"
-      },
-      {
-        "file": "dist/apps/backend/main.js",
-        "hash": "12292915369416089524"
-      },
-      {
         "file": "nx.json",
         "hash": "14957606332241917186"
       },
@@ -173,16 +129,36 @@
         "hash": "7542981739487165903"
       },
       {
+        "file": "tsconfig.base.json",
+        "hash": "596896521444264820"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "7973220568314708570"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "16602595035920530759"
+      },
+      {
         "file": "supabase/config.toml",
         "hash": "3175116340987229256"
       },
       {
-        "file": ".nx/cache/jest.hash",
-        "hash": "4931768051624829257"
+        "file": "supabase/seed.sql",
+        "hash": "3244421341483603138"
       },
       {
-        "file": ".nx/cache/project-graph.json",
-        "hash": "15114412567941751061"
+        "file": ".gitignore",
+        "hash": "2755292205460183465"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "package.json",
+        "hash": "15810003257695442711"
       },
       {
         "file": "supabase/.gitignore",
@@ -194,14 +170,258 @@
       }
     ],
     "projectFileMap": {
-      "frontend": [
+      "backend": [
         {
-          "file": "apps/frontend/.env",
-          "hash": "18049814525704728423"
+          "file": "apps/backend/.env.example",
+          "hash": "3730055718605794618"
         },
+        {
+          "file": "apps/backend/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/backend/jest.config.ts",
+          "hash": "13565990685219350708"
+        },
+        {
+          "file": "apps/backend/project.json",
+          "hash": "9233962208797548025"
+        },
+        {
+          "file": "apps/backend/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.module.ts",
+          "hash": "16566305834282940380",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/applications.controller.ts",
+          "hash": "12437808407006905553",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/applications.module.ts",
+          "hash": "16437577749412653573",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/applications.service.ts",
+          "hash": "5692156301082711042",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/dto/create-application-request.dto.ts",
+          "hash": "2984765340699279885",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/dto/get-nomination-forms-request.dto.ts",
+          "hash": "1464694363787716377",
+          "deps": [
+            "npm:class-validator",
+            "npm:class-transformer"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/dto/update-application-request.dto.ts",
+          "hash": "13542458237837568566"
+        },
+        {
+          "file": "apps/backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/emails/dto/create-email-request.dto.ts",
+          "hash": "14449850253072563769",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/emails.controller.ts",
+          "hash": "5278455687162114299",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/emails.module.ts",
+          "hash": "12673117985055592607",
+          "deps": [
+            "npm:@nestjs-modules/mailer",
+            "npm:@nestjs/common",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/emails.service.ts",
+          "hash": "8453957891584122471",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs-modules/mailer"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/templates/email-template.hbs",
+          "hash": "16124318568139063919"
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "2546540509400009969",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/dto/create-nomination-request.dto.ts",
+          "hash": "11487306065141304513",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/dto/update-nomination-request.dto.ts",
+          "hash": "3054801523251895082",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.controller.ts",
+          "hash": "11728677426755507381",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.module.ts",
+          "hash": "13001426790760151331",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.service.ts",
+          "hash": "15026822250887240485",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.types.ts",
+          "hash": "9896428746640632410"
+        },
+        {
+          "file": "apps/backend/src/supabase/client.ts",
+          "hash": "8005297809499895948",
+          "deps": [
+            "npm:@supabase/supabase-js"
+          ]
+        },
+        {
+          "file": "apps/backend/src/supabase/database.types.ts",
+          "hash": "14367833039687448069"
+        },
+        {
+          "file": "apps/backend/src/users/dto/create-user-request.dto.ts",
+          "hash": "16836658346656396260",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.controller.ts",
+          "hash": "2686738593576691040",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.module.ts",
+          "hash": "7840614349798752879",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.service.ts",
+          "hash": "17033670251317499455",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.types.ts",
+          "hash": "17926161436258450391"
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/backend/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/backend/webpack.config.js",
+          "hash": "12840229110689865531",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:path"
+          ]
+        }
+      ],
+      "frontend": [
         {
           "file": "apps/frontend/.env.example",
           "hash": "10343505625435383976"
+        },
+        {
+          "file": "apps/frontend/.env.production",
+          "hash": "1434227443948077730"
         },
         {
           "file": "apps/frontend/.eslintrc.json",
@@ -580,258 +800,6 @@
             "npm:vite",
             "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
-          ]
-        },
-        {
-          "file": "apps/frontend/.env.production",
-          "hash": "1434227443948077730"
-        }
-      ],
-      "backend": [
-        {
-          "file": "apps/backend/.env",
-          "hash": "878614810154920638"
-        },
-        {
-          "file": "apps/backend/.env.example",
-          "hash": "3730055718605794618"
-        },
-        {
-          "file": "apps/backend/.eslintrc.json",
-          "hash": "13800677001662881425"
-        },
-        {
-          "file": "apps/backend/jest.config.ts",
-          "hash": "13565990685219350708"
-        },
-        {
-          "file": "apps/backend/project.json",
-          "hash": "9233962208797548025"
-        },
-        {
-          "file": "apps/backend/src/app/app.controller.spec.ts",
-          "hash": "9499997688052526633",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/backend/src/app/app.controller.ts",
-          "hash": "9005150069945785676",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/app/app.module.ts",
-          "hash": "16566305834282940380",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/app/app.service.spec.ts",
-          "hash": "8587461140686713758",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/backend/src/app/app.service.ts",
-          "hash": "9967902337593410053",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/applications/applications.controller.ts",
-          "hash": "12437808407006905553",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/applications/applications.module.ts",
-          "hash": "16437577749412653573",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/applications/applications.service.ts",
-          "hash": "5692156301082711042",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/applications/dto/create-application-request.dto.ts",
-          "hash": "2984765340699279885",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/applications/dto/get-nomination-forms-request.dto.ts",
-          "hash": "1464694363787716377",
-          "deps": [
-            "npm:class-validator",
-            "npm:class-transformer"
-          ]
-        },
-        {
-          "file": "apps/backend/src/applications/dto/update-application-request.dto.ts",
-          "hash": "13542458237837568566"
-        },
-        {
-          "file": "apps/backend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/backend/src/emails/dto/create-email-request.dto.ts",
-          "hash": "14449850253072563769",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/emails/emails.controller.ts",
-          "hash": "5278455687162114299",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/emails/emails.module.ts",
-          "hash": "12673117985055592607",
-          "deps": [
-            "npm:@nestjs-modules/mailer",
-            "npm:@nestjs/common",
-            "npm:path"
-          ]
-        },
-        {
-          "file": "apps/backend/src/emails/emails.service.ts",
-          "hash": "8453957891584122471",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs-modules/mailer"
-          ]
-        },
-        {
-          "file": "apps/backend/src/emails/templates/email-template.hbs",
-          "hash": "16124318568139063919"
-        },
-        {
-          "file": "apps/backend/src/main.ts",
-          "hash": "2546540509400009969",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/backend/src/nominations/dto/create-nomination-request.dto.ts",
-          "hash": "11487306065141304513",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/nominations/dto/update-nomination-request.dto.ts",
-          "hash": "3054801523251895082",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/nominations/nominations.controller.ts",
-          "hash": "11728677426755507381",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/nominations/nominations.module.ts",
-          "hash": "13001426790760151331",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/nominations/nominations.service.ts",
-          "hash": "15026822250887240485",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/nominations/nominations.types.ts",
-          "hash": "9896428746640632410"
-        },
-        {
-          "file": "apps/backend/src/supabase/client.ts",
-          "hash": "8005297809499895948",
-          "deps": [
-            "npm:@supabase/supabase-js"
-          ]
-        },
-        {
-          "file": "apps/backend/src/supabase/database.types.ts",
-          "hash": "14367833039687448069"
-        },
-        {
-          "file": "apps/backend/src/users/dto/create-user-request.dto.ts",
-          "hash": "16836658346656396260",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/backend/src/users/users.controller.ts",
-          "hash": "2686738593576691040",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/users/users.module.ts",
-          "hash": "7840614349798752879",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/users/users.service.ts",
-          "hash": "17033670251317499455",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/src/users/users.types.ts",
-          "hash": "17926161436258450391"
-        },
-        {
-          "file": "apps/backend/tsconfig.app.json",
-          "hash": "3171572500325445971"
-        },
-        {
-          "file": "apps/backend/tsconfig.json",
-          "hash": "3490524966360018312"
-        },
-        {
-          "file": "apps/backend/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        },
-        {
-          "file": "apps/backend/webpack.config.js",
-          "hash": "12840229110689865531",
-          "deps": [
-            "npm:@nx/webpack",
-            "npm:path"
           ]
         }
       ]
