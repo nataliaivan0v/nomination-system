@@ -1,0 +1,1473 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.4",
+  "deps": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.14",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.17",
+    "@nestjs-modules/mailer": "^2.0.2",
+    "@nestjs/common": "^10.0.2",
+    "@nestjs/core": "^10.0.2",
+    "@nestjs/platform-express": "^10.0.2",
+    "@supabase/supabase-js": "^2.39.8",
+    "axios": "^1.6.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "mdb-react-ui-kit": "^9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.3.0",
+    "react-is": "18.2.0",
+    "react-router-dom": "^6.28.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "styled-components": "^6.1.8",
+    "tslib": "^2.3.0",
+    "typeorm": "^0.3.20",
+    "yarn": "^1.22.22",
+    "@nestjs/schematics": "^10.0.1",
+    "@nestjs/testing": "^10.0.2",
+    "@nx/eslint": "18.0.4",
+    "@nx/eslint-plugin": "18.0.4",
+    "@nx/jest": "18.0.4",
+    "@nx/js": "18.0.4",
+    "@nx/nest": "^18.0.4",
+    "@nx/node": "18.0.4",
+    "@nx/react": "18.0.4",
+    "@nx/vite": "18.0.4",
+    "@nx/web": "18.0.4",
+    "@nx/webpack": "18.0.4",
+    "@nx/workspace": "18.0.4",
+    "@swc-node/register": "~1.8.0",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@swc/helpers": "~0.5.2",
+    "@testing-library/react": "^14.2.2",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@types/react-is": "18.2.2",
+    "@types/styled-components": "5.1.26",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "^1.0.4",
+    "@vitest/ui": "^1.0.4",
+    "babel-plugin-styled-components": "1.10.7",
+    "eslint": "~8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "jsdom": "~22.1.0",
+    "nx": "18.0.4",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.3.2",
+    "vite": "~5.0.0",
+    "vitest": "^1.0.4",
+    "webpack-cli": "^5.1.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "previewTargetName": "preview",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-VNNZCCWI.js.map",
+        "hash": "2514685016243085843"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Toolbar.js",
+        "hash": "13128590233614612154"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-447CMJHJ.js.map",
+        "hash": "6391634569864193649"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZCAXUX4S.js.map",
+        "hash": "3718033995530797337"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react-router-dom.js.map",
+        "hash": "10101361214114437743"
+      },
+      {
+        "file": "supabase/config.toml",
+        "hash": "3175116340987229256"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "10299005080736041390"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material.js",
+        "hash": "10318978331473036153"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-TYUIPOOU.js",
+        "hash": "15308999482736721399"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-GTZP3DAN.js",
+        "hash": "7693574492327016984"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-B7JVSASU.js",
+        "hash": "14970180886644693219"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "17900813823445113560"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react-icons_fa.js.map",
+        "hash": "16755338903886659550"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-7IDGRZY5.js",
+        "hash": "11045380791508123534"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-5PVXHYGC.js",
+        "hash": "9322087271085871340"
+      },
+      {
+        "file": ".nx/cache/jest.hash",
+        "hash": "4931768051624829257"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-KY35IP43.js.map",
+        "hash": "8940208643613928025"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-7IDGRZY5.js.map",
+        "hash": "2948428509962811787"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableRow.js",
+        "hash": "2342912647294413146"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-4RRBTLDM.js.map",
+        "hash": "2387001246262415072"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TextField.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".nx/cache/vite.hash",
+        "hash": "11863770184327651611"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Checkbox.js",
+        "hash": "3153466581230737295"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/styled-components.js",
+        "hash": "13841869153767513572"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react-router-dom.js",
+        "hash": "11767567455735462392"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_MenuItem.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Select.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "596896521444264820"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_RadioGroup.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-S3H75QPY.js.map",
+        "hash": "1441153731893155036"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Select.js",
+        "hash": "1986911538255132176"
+      },
+      {
+        "file": "dist/apps/backend/main.js",
+        "hash": "12292915369416089524"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-5PVXHYGC.js.map",
+        "hash": "12378912988239084955"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-Q2TEO6A3.js",
+        "hash": "14016691166634396858"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_AppBar.js",
+        "hash": "4126493639588891044"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-RE3UHGAG.js",
+        "hash": "8515123982223890397"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JFDIFDWH.js",
+        "hash": "9130824696445887341"
+      },
+      {
+        "file": "dist/apps/backend/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2125197967787252113"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableCell.js",
+        "hash": "15718854717395618374"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react_jsx-runtime.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react.js",
+        "hash": "11290383152694312719"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-3ZKTO3OF.js",
+        "hash": "4222235207810465810"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-EB46YH4Z.js.map",
+        "hash": "3623424854132783870"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-MFRHX4RL.js.map",
+        "hash": "15033317063138750512"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableBody.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-7NBFP7OF.js.map",
+        "hash": "11244813334977735814"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZDOL6BP7.js.map",
+        "hash": "8343344920111150917"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-7NBFP7OF.js",
+        "hash": "14048141905875101113"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Radio.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-IVCJWN7M.js",
+        "hash": "6347306148338848094"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react-dom_client.js.map",
+        "hash": "11912597646057284635"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-TVJIUMSZ.js",
+        "hash": "627517162081973028"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_styles.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableContainer.js",
+        "hash": "12143835384814089093"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ROA3G5JI.js",
+        "hash": "6943387393883136347"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_FormGroup.js",
+        "hash": "16911111664989763355"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Toolbar.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_FormControlLabel.js",
+        "hash": "5325578174813941073"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Radio.js",
+        "hash": "2814602245471427911"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_FormGroup.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-DW6WP2F3.js",
+        "hash": "10662199224712463727"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-2WS7J2KS.js.map",
+        "hash": "9222387041192140076"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-RVJITNDJ.js",
+        "hash": "8480715745233858408"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react-icons_fa.js",
+        "hash": "12045885451138753727"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-FHKVWICW.js.map",
+        "hash": "1642102281144173777"
+      },
+      {
+        "file": ".nx/cache/nx_files.nxt",
+        "hash": "7451833743920293582"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-4OX7NFC2.js",
+        "hash": "12964952020555935616"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-DKMKQV6I.js.map",
+        "hash": "3680101574309615488"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/styled-components.js.map",
+        "hash": "9050120231232956021"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Button.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-RVJITNDJ.js.map",
+        "hash": "16867658621212861265"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-FHKVWICW.js",
+        "hash": "8603807178975263336"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_MenuItem.js",
+        "hash": "7300746626233857664"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Table.js",
+        "hash": "14070366456340065823"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-W6CAJTJA.js.map",
+        "hash": "12406245315637072966"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-DKMKQV6I.js",
+        "hash": "4835392714179593506"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react_jsx-runtime.js",
+        "hash": "12935793772326344817"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-IVCJWN7M.js.map",
+        "hash": "6763092756275465530"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/mdb-react-ui-kit.js",
+        "hash": "13163958011154247963"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_FormControl.js",
+        "hash": "11097428592509747796"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-UD7R5JOY.js.map",
+        "hash": "8805536498209444698"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TextField.js",
+        "hash": "1011826043903398776"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JEDDZABI.js",
+        "hash": "1747779937679777189"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JZY4MSFY.js.map",
+        "hash": "4650330662507940126"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-6W4OB2NZ.js.map",
+        "hash": "8340720862148433502"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JL26FGFN.js",
+        "hash": "6745345235566579738"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-X4CEZ7IE.js.map",
+        "hash": "16298575330361639432"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-3ZKTO3OF.js.map",
+        "hash": "8755970158688110085"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZILKKULQ.js.map",
+        "hash": "3271289886233863178"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "17155864984113408410"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Paper.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-GTZP3DAN.js.map",
+        "hash": "13017111456397710288"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-EYT6MFBF.js.map",
+        "hash": "11787078629032115068"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Snackbar.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-UWJMOA7T.js.map",
+        "hash": "14633430548453053701"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-6W4OB2NZ.js",
+        "hash": "712413956359567256"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_styles.js",
+        "hash": "7827586030169382061"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZDOL6BP7.js",
+        "hash": "15895393071732843054"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-S3H75QPY.js",
+        "hash": "12674193343572454603"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/mdb-react-ui-kit.js.map",
+        "hash": "18407607378204691317"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react_jsx-dev-runtime.js",
+        "hash": "584322164048670952"
+      },
+      {
+        "file": "dist/apps/backend/emails/templates/email-template.hbs",
+        "hash": "16124318568139063919"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-PP3KA34E.js.map",
+        "hash": "5317467046644153668"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-Q2TEO6A3.js.map",
+        "hash": "12597201918767935695"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Snackbar.js",
+        "hash": "15433669361829145306"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-VNNZCCWI.js",
+        "hash": "6527933022412688993"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableBody.js",
+        "hash": "7015874325074653791"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-L3QBR5Y6.js.map",
+        "hash": "1960891369208044277"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableRow.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-UD7R5JOY.js",
+        "hash": "17409803856863948538"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_FormControlLabel.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-EB46YH4Z.js",
+        "hash": "14417552325125918800"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-W6CAJTJA.js",
+        "hash": "16134373150855881421"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ROA3G5JI.js.map",
+        "hash": "11812046464536768144"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZD5L4L4U.js.map",
+        "hash": "10372236428389559116"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-4RRBTLDM.js",
+        "hash": "4460879966579657003"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-4OX7NFC2.js.map",
+        "hash": "5981827496521924747"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-H57HPVNO.js.map",
+        "hash": "316319191161190316"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JEDDZABI.js.map",
+        "hash": "478570504185054436"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_FormControl.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-L4KHKGIF.js.map",
+        "hash": "1938266589900122203"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-GFR5BQTH.js.map",
+        "hash": "9668281271475250332"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-UHOCGR3J.js.map",
+        "hash": "10011265768267582104"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material.js.map",
+        "hash": "14618926489972339577"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-B5KUE6TB.js",
+        "hash": "2756152834581870529"
+      },
+      {
+        "file": "package.json",
+        "hash": "16671018017390876716"
+      },
+      {
+        "file": "README.md",
+        "hash": "7542981739487165903"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-H57HPVNO.js",
+        "hash": "9764734599567914003"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "1623691522082228384"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Paper.js",
+        "hash": "7726553383075010762"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-GFR5BQTH.js",
+        "hash": "16497566856975052109"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-KY35IP43.js",
+        "hash": "11521217994628050555"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Table.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-EYT6MFBF.js",
+        "hash": "7075772212011502352"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JFDIFDWH.js.map",
+        "hash": "13457051938825871187"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JZY4MSFY.js",
+        "hash": "5458202731053696107"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_RadioGroup.js",
+        "hash": "2299572863021934145"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-B5KUE6TB.js.map",
+        "hash": "4852233487851033134"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableContainer.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-L3QBR5Y6.js",
+        "hash": "9822699891889079518"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-PP3KA34E.js",
+        "hash": "16219409823899981289"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-366NRQXS.js",
+        "hash": "11265665515824926027"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Checkbox.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-RE3UHGAG.js.map",
+        "hash": "13653020735893157488"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react-dom_client.js",
+        "hash": "3773063483239495572"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1746268212511751991"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableHead.js",
+        "hash": "5978941420570901423"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-366NRQXS.js.map",
+        "hash": "794789107499668432"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZILKKULQ.js",
+        "hash": "876561271637270953"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Button.js",
+        "hash": "2746513089978853957"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ELC4ZWA5.js.map",
+        "hash": "9340373268770462878"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZD5L4L4U.js",
+        "hash": "3112895868378073126"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-UWJMOA7T.js",
+        "hash": "2339379783283359497"
+      },
+      {
+        "file": "supabase/seed.sql",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-TYUIPOOU.js.map",
+        "hash": "15178256566787934573"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-UHOCGR3J.js",
+        "hash": "15458256599043936840"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/react_jsx-dev-runtime.js.map",
+        "hash": "4058063810048704320"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "6521896003926247272"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-TVJIUMSZ.js.map",
+        "hash": "4827105200624428674"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Alert.js",
+        "hash": "12298720850669555993"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-B7JVSASU.js.map",
+        "hash": "3813256636555637768"
+      },
+      {
+        "file": "supabase/.gitignore",
+        "hash": "11655384966607301079"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableCell.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-X4CEZ7IE.js",
+        "hash": "17183079338388519707"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ELC4ZWA5.js",
+        "hash": "2150952251607807969"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_Alert.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_AppBar.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/@mui_material_TableHead.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/package.json",
+        "hash": "8630294688235076505"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-ZCAXUX4S.js",
+        "hash": "2954973998410744018"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-DW6WP2F3.js.map",
+        "hash": "1298542388190158376"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-MFRHX4RL.js",
+        "hash": "11188858592156413109"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-2WS7J2KS.js",
+        "hash": "15078710576755001551"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-JL26FGFN.js.map",
+        "hash": "15744613158691897463"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-447CMJHJ.js",
+        "hash": "6923989079572549298"
+      },
+      {
+        "file": "node_modules/.vite/apps/frontend/deps_temp_0424977f/chunk-L4KHKGIF.js",
+        "hash": "2271502695684062958"
+      }
+    ],
+    "projectFileMap": {
+      "backend": [
+        {
+          "file": "apps/backend/.env",
+          "hash": "878614810154920638"
+        },
+        {
+          "file": "apps/backend/.env.example",
+          "hash": "3730055718605794618"
+        },
+        {
+          "file": "apps/backend/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/backend/jest.config.ts",
+          "hash": "13565990685219350708"
+        },
+        {
+          "file": "apps/backend/project.json",
+          "hash": "9233962208797548025"
+        },
+        {
+          "file": "apps/backend/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.module.ts",
+          "hash": "16566305834282940380",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/applications.controller.ts",
+          "hash": "12437808407006905553",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/applications.module.ts",
+          "hash": "16437577749412653573",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/applications.service.ts",
+          "hash": "5692156301082711042",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/dto/create-application-request.dto.ts",
+          "hash": "2984765340699279885",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/dto/get-nomination-forms-request.dto.ts",
+          "hash": "1464694363787716377",
+          "deps": [
+            "npm:class-validator",
+            "npm:class-transformer"
+          ]
+        },
+        {
+          "file": "apps/backend/src/applications/dto/update-application-request.dto.ts",
+          "hash": "13542458237837568566"
+        },
+        {
+          "file": "apps/backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/emails/dto/create-email-request.dto.ts",
+          "hash": "14449850253072563769",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/emails.controller.ts",
+          "hash": "5278455687162114299",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/emails.module.ts",
+          "hash": "12673117985055592607",
+          "deps": [
+            "npm:@nestjs-modules/mailer",
+            "npm:@nestjs/common",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/emails.service.ts",
+          "hash": "8453957891584122471",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs-modules/mailer"
+          ]
+        },
+        {
+          "file": "apps/backend/src/emails/templates/email-template.hbs",
+          "hash": "16124318568139063919"
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "2546540509400009969",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/dto/create-nomination-request.dto.ts",
+          "hash": "11487306065141304513",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/dto/update-nomination-request.dto.ts",
+          "hash": "3054801523251895082",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.controller.ts",
+          "hash": "11728677426755507381",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.module.ts",
+          "hash": "13001426790760151331",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.service.ts",
+          "hash": "15026822250887240485",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/nominations/nominations.types.ts",
+          "hash": "9896428746640632410"
+        },
+        {
+          "file": "apps/backend/src/supabase/client.ts",
+          "hash": "8005297809499895948",
+          "deps": [
+            "npm:@supabase/supabase-js"
+          ]
+        },
+        {
+          "file": "apps/backend/src/supabase/database.types.ts",
+          "hash": "14367833039687448069"
+        },
+        {
+          "file": "apps/backend/src/users/dto/create-user-request.dto.ts",
+          "hash": "16836658346656396260",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.controller.ts",
+          "hash": "2686738593576691040",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.module.ts",
+          "hash": "7840614349798752879",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.service.ts",
+          "hash": "17033670251317499455",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/src/users/users.types.ts",
+          "hash": "17926161436258450391"
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/backend/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/backend/webpack.config.js",
+          "hash": "12840229110689865531",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:path"
+          ]
+        }
+      ],
+      "frontend": [
+        {
+          "file": "apps/frontend/.env",
+          "hash": "18049814525704728423"
+        },
+        {
+          "file": "apps/frontend/.env.example",
+          "hash": "10343505625435383976"
+        },
+        {
+          "file": "apps/frontend/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/frontend/index.html",
+          "hash": "7846072800252272348"
+        },
+        {
+          "file": "apps/frontend/project.json",
+          "hash": "18422926973042117542"
+        },
+        {
+          "file": "apps/frontend/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/frontend/public/logo.ico",
+          "hash": "9199744928180490563"
+        },
+        {
+          "file": "apps/frontend/src/app.tsx",
+          "hash": "4240081134229777484",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/src/assets/front-page.jpg",
+          "hash": "14072507614827786677"
+        },
+        {
+          "file": "apps/frontend/src/assets/senate-logo.png",
+          "hash": "2516063478936773720"
+        },
+        {
+          "file": "apps/frontend/src/components/ErrorPopUp/ErrorPopUp.tsx",
+          "hash": "5969302403109375729",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/ErrorPopUp/index.ts",
+          "hash": "16835621723762769963"
+        },
+        {
+          "file": "apps/frontend/src/components/ErrorPopUp/styles.tsx",
+          "hash": "16261125941422250978",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Footer/Footer.tsx",
+          "hash": "9703166710967438358",
+          "deps": [
+            "npm:mdb-react-ui-kit"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Footer/index.ts",
+          "hash": "14786303919764291112"
+        },
+        {
+          "file": "apps/frontend/src/components/Navbar/Navbar.tsx",
+          "hash": "9427696295064091676",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/Navbar/constants.ts",
+          "hash": "2774286031412735788"
+        },
+        {
+          "file": "apps/frontend/src/components/Navbar/index.ts",
+          "hash": "11720350549982472034"
+        },
+        {
+          "file": "apps/frontend/src/components/Navbar/styles.tsx",
+          "hash": "17931156170994833062",
+          "deps": [
+            "npm:@mui/material",
+            "npm:react-router-dom",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/SubmitPopUp/SubmitPopUp.tsx",
+          "hash": "6674190424428545680",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/SubmitPopUp/index.ts",
+          "hash": "11129460264240055221"
+        },
+        {
+          "file": "apps/frontend/src/components/SubmitPopUp/styles.tsx",
+          "hash": "16261125941422250978",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/forms/ApplicationForm/ApplicationForm.tsx",
+          "hash": "6542698359444933232",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/forms/ApplicationForm/index.ts",
+          "hash": "8816623449695569314"
+        },
+        {
+          "file": "apps/frontend/src/components/forms/ApplicationForm/styles.tsx",
+          "hash": "14901423702974892209",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/forms/LoginForm/LoginForm.tsx",
+          "hash": "6659325237692930777",
+          "deps": [
+            "npm:@mui/material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/forms/LoginForm/index.ts",
+          "hash": "2114498224908584580"
+        },
+        {
+          "file": "apps/frontend/src/components/forms/LoginForm/styles.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/src/components/forms/NominationForm/NominationForm.tsx",
+          "hash": "13209398360968671506",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/forms/NominationForm/index.ts",
+          "hash": "3840465383509215587"
+        },
+        {
+          "file": "apps/frontend/src/components/forms/NominationForm/styles.tsx",
+          "hash": "7753140240411505305",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/tables/AdminTable/AdminTable.tsx",
+          "hash": "1107705738375029740",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/tables/AdminTable/constants.ts",
+          "hash": "6837588539967171520"
+        },
+        {
+          "file": "apps/frontend/src/components/tables/AdminTable/index.ts",
+          "hash": "8698597605547664560"
+        },
+        {
+          "file": "apps/frontend/src/components/tables/AdminTable/styles.tsx",
+          "hash": "5682111368024117327",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/components/tables/AdminTable/types.ts",
+          "hash": "7649657377175494096"
+        },
+        {
+          "file": "apps/frontend/src/main.tsx",
+          "hash": "17779882753671977098",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Admin/Admin.tsx",
+          "hash": "2349369490364265235",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Admin/index.ts",
+          "hash": "16548675356401963207"
+        },
+        {
+          "file": "apps/frontend/src/pages/Admin/styles.tsx",
+          "hash": "17412016043843220910",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Applications/Applications.tsx",
+          "hash": "10514367893677567964",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Applications/constants.tx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/src/pages/Applications/index.ts",
+          "hash": "5509930389198341391"
+        },
+        {
+          "file": "apps/frontend/src/pages/Applications/styles.tsx",
+          "hash": "11766330245720320158",
+          "deps": [
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Applications/types.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/src/pages/Dashboard/Dashboard.tsx",
+          "hash": "4376047922686429916",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Dashboard/index.ts",
+          "hash": "12748528013595533474"
+        },
+        {
+          "file": "apps/frontend/src/pages/Dashboard/styles.tsx",
+          "hash": "4249984996764845586",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Home/Home.spec.tsx",
+          "hash": "3557188504194772326",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Home/Home.tsx",
+          "hash": "9262008681097893642",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-icons"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Home/index.ts",
+          "hash": "16117244330736578688"
+        },
+        {
+          "file": "apps/frontend/src/pages/Login/Login.tsx",
+          "hash": "15275403459736941249",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Login/index.ts",
+          "hash": "3700973993253328362"
+        },
+        {
+          "file": "apps/frontend/src/pages/Login/styles.tsx",
+          "hash": "16001116909071314715",
+          "deps": [
+            "npm:@mui/material",
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Nominations/Nominations.tsx",
+          "hash": "7456597881762175465",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Nominations/constants.ts",
+          "hash": "491453416328521819"
+        },
+        {
+          "file": "apps/frontend/src/pages/Nominations/index.ts",
+          "hash": "5343002546846851649"
+        },
+        {
+          "file": "apps/frontend/src/pages/Nominations/styles.tsx",
+          "hash": "11766330245720320158",
+          "deps": [
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/pages/Nominations/types.ts",
+          "hash": "9095479166638573627"
+        },
+        {
+          "file": "apps/frontend/src/pages/NotFound/NotFound.tsx",
+          "hash": "10637827079491401069"
+        },
+        {
+          "file": "apps/frontend/src/pages/NotFound/index.ts",
+          "hash": "11945575064663386975"
+        },
+        {
+          "file": "apps/frontend/src/theme/index.ts",
+          "hash": "12246664062301602822"
+        },
+        {
+          "file": "apps/frontend/src/theme/mui.theme.ts",
+          "hash": "18388080634069459314",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/utils.ts",
+          "hash": "6157062529766421696"
+        },
+        {
+          "file": "apps/frontend/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/frontend/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/frontend/tsconfig.spec.json",
+          "hash": "9472099605191632308"
+        },
+        {
+          "file": "apps/frontend/vite.config.ts",
+          "hash": "3786566035490919127",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ]
+    }
+  }
+}
