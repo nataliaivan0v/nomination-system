@@ -10,8 +10,8 @@
         "use": "@vercel/node"
       }
     ],
-    "buildCommand": "nx build frontend & nx serve backend",
-    "devCommand": "nx serve frontend & nx serve backend",
+    "buildCommand": "nx run-many -t build -p frontend backend",
+    "devCommand": "nx run-many -t serve -p frontend backend",
     "installCommand": "yarn install && nx install",
     "env": {
         "VITE_API_URL": "http://localhost:3000",
