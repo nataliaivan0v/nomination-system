@@ -14534,3 +14534,292 @@ created by github.com/evanw/esbuild/internal/bundler.(*scanner).maybeParseFile
 [NX Daemon Server] - 2024-12-19T01:52:36.505Z - Done responding to the client project-graph
 [NX Daemon Server] - 2024-12-19T01:52:36.505Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
 [NX Daemon Server] - 2024-12-19T01:52:36.506Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-19T04:52:36.506Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-19T07:52:36.511Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-19T10:52:36.537Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-19T13:52:36.512Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-19T16:52:36.563Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-19T19:52:36.558Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-19T22:52:36.550Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T01:52:36.597Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T04:52:36.609Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T07:52:36.645Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T10:52:36.606Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T13:52:36.652Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T17:00:09.539Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T20:10:32.218Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-20T23:25:10.857Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-21T01:52:11.860Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:52:11.861Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-21T01:52:11.861Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:52:11.864Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:52:11.864Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:52:11.865Z - Time taken for 'total for creating and serializing project graph' 0.26375001668930054ms
+[NX Daemon Server] - 2024-12-21T01:52:11.866Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:52:11.866Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-12-21T01:52:11.871Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-21T01:52:28.250Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:52:28.250Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-21T01:52:28.251Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:52:28.252Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:52:28.252Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:52:28.253Z - Time taken for 'total for creating and serializing project graph' 0.13887500762939453ms
+[NX Daemon Server] - 2024-12-21T01:52:28.255Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:52:28.255Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-12-21T01:52:28.259Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-21T01:56:02.553Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:56:02.554Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-21T01:56:02.555Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:56:02.556Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:02.556Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:02.557Z - Time taken for 'total for creating and serializing project graph' 0.09054198861122131ms
+[NX Daemon Server] - 2024-12-21T01:56:02.559Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:02.559Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-12-21T01:56:02.643Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:56:02.643Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:56:02.643Z - Handled HASH_TASKS. Handling time: 32. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:03.141Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:56:03.142Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:56:03.142Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:56:03.143Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:03.143Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:03.143Z - Time taken for 'total for creating and serializing project graph' 0.05199998617172241ms
+[NX Daemon Server] - 2024-12-21T01:56:03.144Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:03.144Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:56:03.147Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:03.254Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:03.254Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:03.254Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:03.255Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:03.255Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:03.255Z - Time taken for 'total for creating and serializing project graph' 0.04945799708366394ms
+[NX Daemon Server] - 2024-12-21T01:56:03.257Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:03.257Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-12-21T01:56:03.296Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:56:03.296Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:56:03.296Z - Handled HASH_TASKS. Handling time: 10. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:03.907Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-12-21T01:56:03.907Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-12-21T01:56:03.907Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:03.916Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:56:03.916Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:56:03.916Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:03.963Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-21T01:56:04.030Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:56:04.030Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:56:04.030Z - Handled PROCESS_IN_BACKGROUND. Handling time: 56. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:04.030Z - Uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:56:04.030Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:56:04.030Z - Sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:56:04.058Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:04.177Z - Done sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:56:56.519Z - [WATCHER]: apps/backend/Dockerfile. was created or restored
+[NX Daemon Server] - 2024-12-21T01:56:56.520Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-21T01:56:56.621Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-21T01:56:56.621Z - [REQUEST]: apps/backend/Dockerfile.
+[NX Daemon Server] - 2024-12-21T01:56:56.621Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-21T01:56:57.232Z - Time taken for 'hash changed files from watcher' 0.422666996717453ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-12-21T01:56:57.298Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:56:57.298Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:56:57.298Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:56:57.298Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:56:57.298Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:57.298Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:57.299Z - Time taken for 'build-project-configs' 643.7102079987526ms
+[NX Daemon Server] - 2024-12-21T01:56:57.440Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:57.441Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:57.441Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:57.442Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:57.442Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:57.442Z - Time taken for 'total for creating and serializing project graph' 0.14287501573562622ms
+[NX Daemon Server] - 2024-12-21T01:56:57.444Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:57.444Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-12-21T01:56:57.488Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:56:57.489Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:56:57.489Z - Handled HASH_TASKS. Handling time: 8. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:56:58.303Z - Established a connection. Number of open connections: 7
+[NX Daemon Server] - 2024-12-21T01:56:58.304Z - Closed a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:58.304Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:58.304Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:58.304Z - Time taken for 'total for creating and serializing project graph' 0.08037501573562622ms
+[NX Daemon Server] - 2024-12-21T01:56:58.306Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:58.306Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-12-21T01:56:58.309Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-12-21T01:56:58.309Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-12-21T01:56:58.309Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:58.309Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:58.358Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:56:58.358Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:58.358Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:58.358Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:56:58.359Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:58.359Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:58.359Z - Time taken for 'total for creating and serializing project graph' 0.15433302521705627ms
+[NX Daemon Server] - 2024-12-21T01:56:58.360Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:58.360Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:56:58.362Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:56:58.362Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:56:58.362Z - Time taken for 'total for creating and serializing project graph' 0.04258301854133606ms
+[NX Daemon Server] - 2024-12-21T01:56:58.363Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:56:58.363Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:56:58.365Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:56:58.520Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-21T01:56:59.666Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:56:59.666Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:56:59.666Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:59.709Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-21T01:56:59.750Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:56:59.750Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:56:59.750Z - Handled PROCESS_IN_BACKGROUND. Handling time: 35. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:56:59.752Z - Uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:56:59.762Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:00.028Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:57:00.028Z - Sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:57:00.087Z - Done sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:57:12.513Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-21T01:57:12.513Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:12.514Z - Time taken for 'changed-projects' 0.46279197931289673ms
+[NX Daemon Server] - 2024-12-21T01:57:12.614Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-21T01:57:12.614Z - [REQUEST]: apps/backend/Dockerfile
+[NX Daemon Server] - 2024-12-21T01:57:12.614Z - [REQUEST]: apps/backend/Dockerfile.
+[NX Daemon Server] - 2024-12-21T01:57:12.896Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - Time taken for 'hash changed files from watcher' 0.12687498331069946ms
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - Established a connection. Number of open connections: 7
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - Closed a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - [REQUEST]: apps/backend/Dockerfile
+[NX Daemon Server] - 2024-12-21T01:57:12.897Z - [REQUEST]: apps/backend/Dockerfile.
+[NX Daemon Server] - 2024-12-21T01:57:13.186Z - Time taken for 'hash changed files from watcher' 0.09141600131988525ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-12-21T01:57:13.237Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:13.237Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:13.237Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:13.237Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:13.238Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:13.238Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:13.240Z - Time taken for 'build-project-configs' 312.065750002861ms
+[NX Daemon Server] - 2024-12-21T01:57:13.291Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:13.291Z - Time taken for 'total for creating and serializing project graph' 393.4327920079231ms
+[NX Daemon Server] - 2024-12-21T01:57:13.296Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:13.296Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 394. Response time: 5.
+[NX Daemon Server] - 2024-12-21T01:57:13.335Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:57:13.335Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:57:13.335Z - Handled HASH_TASKS. Handling time: 9. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.366Z - Established a connection. Number of open connections: 7
+[NX Daemon Server] - 2024-12-21T01:57:13.371Z - Closed a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:57:13.372Z - Established a connection. Number of open connections: 7
+[NX Daemon Server] - 2024-12-21T01:57:13.380Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:13.380Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:13.380Z - Time taken for 'total for creating and serializing project graph' 0.11141598224639893ms
+[NX Daemon Server] - 2024-12-21T01:57:13.386Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:13.386Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2024-12-21T01:57:13.418Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:57:13.420Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-21T01:57:13.420Z - Handled HASH_TASKS. Handling time: 3. Response time: 2.
+[NX Daemon Server] - 2024-12-21T01:57:13.452Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-12-21T01:57:13.452Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-12-21T01:57:13.452Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.453Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:57:13.453Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:57:13.453Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.527Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:57:13.527Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:57:13.527Z - Handled PROCESS_IN_BACKGROUND. Handling time: 38. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.529Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2024-12-21T01:57:13.529Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2024-12-21T01:57:13.529Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.530Z - Uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:57:13.530Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:57:13.530Z - Sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:57:13.531Z - Closed a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:57:13.536Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:57:13.536Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-12-21T01:57:13.536Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.590Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:57:13.590Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-12-21T01:57:13.590Z - Handled PROCESS_IN_BACKGROUND. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:13.592Z - Uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:57:13.592Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-12-21T01:57:13.592Z - Sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:57:13.594Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:13.661Z - Done sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:57:13.707Z - Done sending EndRun request
+[NX Daemon Server] - 2024-12-21T01:57:14.240Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:57:14.240Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:14.240Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:14.241Z - Time taken for 'total for creating and serializing project graph' 0.13079199194908142ms
+[NX Daemon Server] - 2024-12-21T01:57:14.241Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:14.242Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:14.242Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-12-21T01:57:14.246Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-12-21T01:57:14.247Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-12-21T01:57:14.247Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:14.247Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:14.284Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:57:14.285Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:14.285Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:14.285Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:14.285Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:14.285Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:14.285Z - Time taken for 'total for creating and serializing project graph' 0.05091699957847595ms
+[NX Daemon Server] - 2024-12-21T01:57:14.286Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:14.286Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:14.288Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:14.288Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:14.289Z - Time taken for 'total for creating and serializing project graph' 0.05408298969268799ms
+[NX Daemon Server] - 2024-12-21T01:57:14.289Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:14.289Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:14.291Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:16.729Z - [WATCHER]: apps/frontend/Dockerfile was created or restored
+[NX Daemon Server] - 2024-12-21T01:57:16.729Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-21T01:57:16.830Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-21T01:57:16.830Z - [REQUEST]: apps/frontend/Dockerfile
+[NX Daemon Server] - 2024-12-21T01:57:16.830Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-21T01:57:17.104Z - Time taken for 'hash changed files from watcher' 0.1292090117931366ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-12-21T01:57:17.149Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:17.149Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-12-21T01:57:17.149Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:17.151Z - Time taken for 'build-project-configs' 299.71012499928474ms
+[NX Daemon Server] - 2024-12-21T01:57:18.156Z - Established a connection. Number of open connections: 6
+[NX Daemon Server] - 2024-12-21T01:57:18.158Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:18.158Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:18.159Z - Time taken for 'total for creating and serializing project graph' 0.43766698241233826ms
+[NX Daemon Server] - 2024-12-21T01:57:18.159Z - Closed a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:18.161Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:18.161Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-12-21T01:57:18.168Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-12-21T01:57:18.168Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-12-21T01:57:18.168Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-12-21T01:57:18.169Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:18.211Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:57:18.212Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:18.212Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:18.212Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:18.212Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:18.212Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:18.213Z - Time taken for 'total for creating and serializing project graph' 0.056167006492614746ms
+[NX Daemon Server] - 2024-12-21T01:57:18.213Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:18.213Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:18.216Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-21T01:57:18.216Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-21T01:57:18.216Z - Time taken for 'total for creating and serializing project graph' 0.041624993085861206ms
+[NX Daemon Server] - 2024-12-21T01:57:18.217Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-21T01:57:18.217Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-12-21T01:57:18.219Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-12-21T01:57:49.146Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-12-21T01:57:49.155Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-12-21T01:57:49.157Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-21T04:57:18.252Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-21T08:06:58.807Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-21T11:17:39.556Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-21T14:19:14.287Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-12-21T17:22:31.645Z - There are 2 open connections. Reset inactivity timer.

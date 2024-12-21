@@ -121,48 +121,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "14957606332241917186"
-      },
-      {
-        "file": "README.md",
-        "hash": "7542981739487165903"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "596896521444264820"
-      },
-      {
-        "file": ".nx/cache/d/server-process.json",
-        "hash": "7973220568314708570"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "16602595035920530759"
-      },
-      {
-        "file": "supabase/config.toml",
-        "hash": "3175116340987229256"
+        "file": "package.json",
+        "hash": "15810003257695442711"
       },
       {
         "file": "supabase/seed.sql",
         "hash": "3244421341483603138"
       },
       {
-        "file": ".gitignore",
-        "hash": "2755292205460183465"
+        "file": "yarn.lock",
+        "hash": "16602595035920530759"
+      },
+      {
+        "file": "supabase/.gitignore",
+        "hash": "11655384966607301079"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14957606332241917186"
       },
       {
         "file": "jest.config.ts",
         "hash": "12333515226966617182"
       },
       {
-        "file": "package.json",
-        "hash": "15810003257695442711"
+        "file": "tsconfig.base.json",
+        "hash": "596896521444264820"
       },
       {
-        "file": "supabase/.gitignore",
-        "hash": "11655384966607301079"
+        "file": "README.md",
+        "hash": "7542981739487165903"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "7973220568314708570"
+      },
+      {
+        "file": "supabase/config.toml",
+        "hash": "3175116340987229256"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2755292205460183465"
       },
       {
         "file": "jest.preset.js",
@@ -412,6 +412,10 @@
             "npm:@nx/webpack",
             "npm:path"
           ]
+        },
+        {
+          "file": "apps/backend/Dockerfile",
+          "hash": "3244421341483603138"
         }
       ],
       "frontend": [
@@ -801,6 +805,10 @@
             "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
           ]
+        },
+        {
+          "file": "apps/frontend/Dockerfile",
+          "hash": "3244421341483603138"
         }
       ]
     }
